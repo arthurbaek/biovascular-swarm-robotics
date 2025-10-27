@@ -1,7 +1,7 @@
 # X–SYCON: Xylem-Inspired Passive Gradient Control for Communication-Free Swarm Response
 
 **Authors**  
-Arthur Ji Sung Baek — Independent Researcher, São Paulo, Brazil — _Corresponding:_ <arthurbaek08@gmail.com>  
+Arthur Ji Sung Baek — Independent Researcher, São Paulo, Brazil — _Corresponding:_ <ajsb2371@columbia.edu>  
 Geoffrey H. Martin — Cornell University, Ithaca, NY, USA — <ghm58@cornell.edu>
 
 [![arXiv](https://img.shields.io/badge/preprint-arXiv-8A2BE2.svg)](<!-- TODO: add arXiv or TechRxiv link -->)
@@ -12,7 +12,6 @@ Geoffrey H. Martin — Cornell University, Ithaca, NY, USA — <ghm58@cornell.ed
 ---
 
 ## Contents
-- [Repo layout](#repo-layout)
 - [Quick start](#quick-start)
 - [Results & figures](#results--figures)
 - [Configuration](#configuration)
@@ -21,24 +20,6 @@ Geoffrey H. Martin — Cornell University, Ithaca, NY, USA — <ghm58@cornell.ed
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 - [Release & archival notes](#release--archival-notes)
-
----
-
-## Repo layout
-X-SYCON/
-├─ model/
-│ └─ xsycon.nlogo # NetLogo model (controller + environment)
-├─ data/
-│ ├─ experiments.csv # Aggregated BehaviorSpace results
-├─├─ behaviorspace_experiment.xml # Experiment ran for research
-├─ README.md # This file
-├─ LICENSE # MIT (code)
-├─ LICENSE-DATA # CC BY 4.0 (data)
-└─ .gitignore
-
----
-
-> **Note:** Avoid Git LFS for files you want archived by Zenodo. Zenodo pulls the source archive, not LFS blobs.
 
 ---
 
@@ -56,7 +37,7 @@ X-SYCON/
    - `pnew` — demand arrival probability  
    - `hazard` — blocked-cell fraction (target)  
    - `carriers (C)` — team size  
-   - diffusion/decay parameters (DE/HZ)
+   - `diffusion/decay parameters` (DE/HZ)
 
 ### Batch runs (BehaviorSpace)
 1. NetLogo → **Tools → BehaviorSpace**.  
