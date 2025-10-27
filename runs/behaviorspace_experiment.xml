@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE experiments SYSTEM "behaviorspace.dtd">
+<experiments>
+  <experiment name="x-sycon experiment" repetitions="1" runMetricsEveryStep="false">
+    <setup>setup</setup>
+    <go>go</go>
+    <exitCondition>(ticks &gt;= max-ticks) or ((de-served + de-missed) &gt;= de-quota)</exitCondition>
+    <metric>service-throughput</metric>
+    <metric>miss-rate</metric>
+    <metric>mean-ttfr</metric>
+    <metric>mean-latency</metric>
+    <metric>energy-per-task</metric>
+    <metric>coverage-entropy</metric>
+    <metric>field-mean</metric>
+    <metric>field-var</metric>
+    <enumeratedValueSet variable="num-carriers">
+      <value value="10"/>
+      <value value="25"/>
+      <value value="50"/>
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="p-new-DE">
+      <value value="0.02"/>
+      <value value="0.03"/>
+      <value value="0.04"/>
+      <value value="0.06"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="max-blocked-frac">
+      <value value="0.1"/>
+      <value value="0.15"/>
+      <value value="0.22"/>
+      <value value="0.28"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="kappa">
+      <value value="0.5"/>
+      <value value="0.8"/>
+      <value value="1.2"/>
+      <value value="1.6"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="run-seed">
+      <value value="1"/>
+      <value value="2"/>
+      <value value="3"/>
+      <value value="4"/>
+      <value value="5"/>
+      <value value="6"/>
+      <value value="7"/>
+      <value value="8"/>
+      <value value="9"/>
+      <value value="10"/>
+    </enumeratedValueSet>
+  </experiment>
+</experiments>
