@@ -1,11 +1,10 @@
 # X–SYCON: Xylem-Inspired Passive Gradient Control for Communication-Free Swarm Response
 
 **Authors**  
-Arthur Ji Sung Baek — Independent Researcher, São Paulo, Brazil — _Corresponding:_ <ajsb2371@columbia.edu>  
+Arthur Ji Sung Baek — Independent Researcher, São Paulo, Brazil — <ajsb2371@columbia.edu>  
 Geoffrey H. Martin — Cornell University, Ithaca, NY, USA — <ghm58@cornell.edu>
 
-[![arXiv](https://img.shields.io/badge/preprint-arXiv-8A2BE2.svg)](<!-- TODO: add arXiv or TechRxiv link -->)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.TODO.svg)](https://doi.org/10.5281/zenodo.TODO)
+[![arXiv](https://img.shields.io/badge/preprint-arXiv-8A2BE2.svg)]
 
 > **Abstract (short)** — We present **X–SYCON**, a xylem-inspired multi-agent architecture where coordination emerges from **passive field dynamics** (diffusion + decay) rather than explicit communication. Incidents (demands) and obstructions (hazards) write scalar fields; agents greedily ascend a local utility \(U=\phi_{\mathrm{DE}}-\kappa\phi_{\mathrm{HZ}}\) with light anti-congestion. A first-contact **beaconing** rule deepens local sinks to finish tasks faster without hurting time-to-first-response. We analyze a **hydraulic length scale** that predicts recruitment range and provide an **Ohm-law** service bound consistent with sublinear capacity scaling. Across 2,560 NetLogo/BehaviorSpace runs in dynamic, partially blocked worlds, we observe low miss rates, robust throughput, and tunable energy–reliability trade-offs—illustrating a class we call **Distributed Passive Computation & Control**.
 
@@ -19,7 +18,6 @@ Geoffrey H. Martin — Cornell University, Ithaca, NY, USA — <ghm58@cornell.ed
 - [Declarations (Data/COI/Funding/Ethics)](#declarations-data-coifundingethics)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
-- [Release & archival notes](#release--archival-notes)
 
 ---
 
@@ -47,14 +45,10 @@ Geoffrey H. Martin — Cornell University, Ithaca, NY, USA — <ghm58@cornell.ed
 
 ## Citing this work
 
-If you use X–SYCON or its results, please cite the preprint and the archived code/data.
+If you use X–SYCON or its results, please cite the preprint
 
 Preprint
-Baek, A. J. S., & Martin, G. H. (2025). X–SYCON: Xylem-Inspired Passive Gradient Control for Communication-Free Swarm Response in Dynamic Disaster Environments. Preprint. arXiv: TODO | TechRxiv DOI: TODO).
-
-Code & Data
-Baek, A. J. S., & Martin, G. H. (2025). X–SYCON: Code and Data (v1.0.0). Zenodo. https://doi.org/TODO
-
+Baek, A. J. S., & Martin, G. H. (2025). X–SYCON: Xylem-Inspired Passive Gradient Control for Communication-Free Swarm Response in Dynamic Disaster Environments. Preprint. arXiv: TODO
 
 BibTeX
 
@@ -65,14 +59,12 @@ BibTeX
   eprint        = {TODO},
   archivePrefix = {arXiv},
   primaryClass  = {cs.RO},
-  note          = {Preprint; code \& data archived at Zenodo DOI: 10.5281/zenodo.TODO}
+  doi = 
 }
 
 ---
 
-## Declarations (Data/COI/Funding/Ethics)
-
-Data & Code Availability — The exact version used to produce figures is tagged v1.0.0 and archived at Zenodo (DOI: 10.5281/zenodo.TODO).
+## Declarations (Data/COI/Funding/Ethics)   
 
 Competing Interests — The authors declare no competing interests.
 
@@ -98,17 +90,5 @@ If you need permissions beyond the data license (e.g., commercial reuse under di
 ## Acknowledgments
 
 We thank colleagues for feedback on early drafts and reviewers for helpful suggestions. Any views and errors are our own.
-
----
-
-## Release & archival notes
-
-Public releases are tagged (v1.0.0, v1.1.0, …) and automatically archived by Zenodo. The concept DOI remains stable; each release gets a versioned DOI.
-
-Keep individual files <100 MB (compress large CSVs as .csv.gz).
-
-Avoid Git LFS for archived artifacts.
-
-Changelogs live in GitHub Releases.
 
 
