@@ -1,5 +1,5 @@
 ; ============================================================
-; X-SYCON (passive) — v5.1
+; X-SYCON (passive)
 ; - Pure passive: fields + gradient follow (no planning, no comms)
 ; - Reproducible: per-run seed & unique filenames
 ; - Deterministic stop: max-ticks OR DE quota
