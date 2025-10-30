@@ -6,7 +6,7 @@ Geoffrey H. Martin — Cornell University, Ithaca, NY, USA — <ghm58@cornell.ed
 
 [![arXiv](https://img.shields.io/badge/preprint-arXiv-8A2BE2.svg)]
 
-> **Abstract (short)** — We present **X–SYCON**, a xylem-inspired multi-agent architecture where coordination emerges from **passive field dynamics** (diffusion + decay) rather than explicit communication. Incidents (demands) and obstructions (hazards) write scalar fields; agents greedily ascend a local utility \(U=\phi_{\mathrm{DE}}-\kappa\phi_{\mathrm{HZ}}\) with light anti-congestion. A first-contact **beaconing** rule deepens local sinks to finish tasks faster without hurting time-to-first-response. We analyze a **hydraulic length scale** that predicts recruitment range and provide an **Ohm-law** service bound consistent with sublinear capacity scaling. Across 2,560 NetLogo/BehaviorSpace runs in dynamic, partially blocked worlds, we observe low miss rates, robust throughput, and tunable energy–reliability trade-offs—illustrating a class we call **Distributed Passive Computation & Control**.
+> **Abstract** — We present **X–SYCON**, a xylem-inspired multi-agent architecture where coordination emerges from **passive field dynamics** (diffusion + decay) rather than explicit communication. Incidents (demands) and obstructions (hazards) write scalar fields; agents greedily ascend a local utility \(U=\phi_{\mathrm{DE}}-\kappa\phi_{\mathrm{HZ}}\) with light anti-congestion. A first-contact **beaconing** rule deepens local sinks to finish tasks faster without hurting time-to-first-response. We analyze a **hydraulic length scale** that predicts recruitment range and provide an **Ohm-law** service bound consistent with sublinear capacity scaling. Across 2,560 NetLogo/BehaviorSpace runs in dynamic, partially blocked worlds, we observe low miss rates, robust throughput, and tunable energy–reliability trade-offs—illustrating a class we call **Distributed Passive Computation & Control**.
 
 ---
 
@@ -48,7 +48,7 @@ Geoffrey H. Martin — Cornell University, Ithaca, NY, USA — <ghm58@cornell.ed
 If you use X–SYCON or its results, please cite the preprint
 
 Preprint
-Baek, A. J. S., & Martin, G. H. (2025). X–SYCON: Xylem-Inspired Passive Gradient Control for Communication-Free Swarm Response in Dynamic Disaster Environments. Preprint. arXiv: TODO
+Baek, A. J. S., & Martin, G. H. (2025). X–SYCON: Xylem-Inspired Passive Gradient Control for Communication-Free Swarm Response in Dynamic Disaster Environments. Preprint. arXiv: []
 
 BibTeX
 
@@ -56,7 +56,7 @@ BibTeX
   title         = {X--SYCON: Xylem-Inspired Passive Gradient Control for Communication-Free Swarm Response in Dynamic Disaster Environments},
   author        = {Baek, Arthur Ji Sung and Martin, Geoffrey H.},
   year          = {2025},
-  eprint        = {TODO},
+  eprint        = {DOI},
   archivePrefix = {arXiv},
   primaryClass  = {cs.RO},
   doi = 
