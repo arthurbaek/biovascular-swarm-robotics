@@ -74,7 +74,7 @@ Ethics — This study did not involve human participants, animal experiments, or
 
 ## License
 
-Code is released under the MIT License (see LICENSE)..
+Code is released under the MIT License
 
 Component	License
 Code: MIT
