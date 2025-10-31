@@ -1,10 +1,8 @@
 # X–SYCON: Xylem-Inspired Passive Gradient Control for Communication-Free Swarm Response
 
 **Authors**  
-Arthur Ji Sung Baek — Independent Researcher, São Paulo, Brazil — <ajsb2371@columbia.edu>  
+Arthur Ji Sung Baek — Independent Researcher, São Paulo, Brazil — <arthurbaek08@gmail.com>  
 Geoffrey H. Martin — Cornell University, Ithaca, NY, USA — <ghm58@cornell.edu>
-
-[![arXiv](https://img.shields.io/badge/preprint-arXiv-8A2BE2.svg)]
 
 > **Abstract** — We present **X–SYCON**, a xylem-inspired multi-agent architecture where coordination emerges from **passive field dynamics** (diffusion + decay) rather than explicit communication. Incidents (demands) and obstructions (hazards) write scalar fields; agents greedily ascend a local utility \(U=\phi_{\mathrm{DE}}-\kappa\phi_{\mathrm{HZ}}\) with light anti-congestion. A first-contact **beaconing** rule deepens local sinks to finish tasks faster without hurting time-to-first-response. We analyze a **hydraulic length scale** that predicts recruitment range and provide an **Ohm-law** service bound consistent with sublinear capacity scaling. Across 2,560 NetLogo/BehaviorSpace runs in dynamic, partially blocked worlds, we observe low miss rates, robust throughput, and tunable energy–reliability trade-offs—illustrating a class we call **Distributed Passive Computation & Control**.
 
@@ -80,8 +78,8 @@ Code is released under the MIT License (see LICENSE).
 Data in /data (and any files explicitly marked as “Data”) are released under CC BY 4.0 (see LICENSE-DATA).
 
 Component	License
-Code (outside /data)	MIT
-Data (in /data)	CC BY 4.0
+Code: MIT
+Paper: C.C BY 4.0
 
 If you need permissions beyond the data license (e.g., commercial reuse under different terms), contact the corresponding author.
 
