@@ -74,8 +74,7 @@ Ethics — This study did not involve human participants, animal experiments, or
 
 ## License
 
-Code is released under the MIT License (see LICENSE).
-Data in /data (and any files explicitly marked as “Data”) are released under CC BY 4.0 (see LICENSE-DATA).
+Code is released under the MIT License (see LICENSE)..
 
 Component	License
 Code: MIT
